@@ -1,78 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="16" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-17T16:57:06 IST" name="Suite" finished-at="2025-03-17T16:58:43 IST" duration-ms="96715">
+  <suite started-at="2025-03-17T17:29:06 IST" name="Suite" finished-at="2025-03-17T17:29:59 IST" duration-ms="53169">
     <groups>
       <group name="system">
-        <method signature="Inventory.TC_ST_015()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" name="TC_ST_015" class="com.SalesAndInventorySystem.Admin.Inventory.Inventory"/>
-        <method signature="Inventory.TC_ST_017()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" name="TC_ST_017" class="com.SalesAndInventorySystem.Admin.Inventory.Inventory"/>
-        <method signature="Product.TC_ST_009()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" name="TC_ST_009" class="com.SalesAndInventorySystem.Admin.Product.Product"/>
+        <method signature="Inventory.TC_ST_015()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" name="TC_ST_015" class="com.SalesAndInventorySystem.Admin.Inventory.Inventory"/>
+        <method signature="Inventory.TC_ST_017()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" name="TC_ST_017" class="com.SalesAndInventorySystem.Admin.Inventory.Inventory"/>
+        <method signature="Product.TC_ST_009()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" name="TC_ST_009" class="com.SalesAndInventorySystem.Admin.Product.Product"/>
       </group> <!-- system -->
-      <group name="integration">
-        <method signature="Product.TC_IT_010()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" name="TC_IT_010" class="com.SalesAndInventorySystem.Admin.Product.Product"/>
-        <method signature="Supplier.TC_IT_005()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" name="TC_IT_005" class="com.SalesAndInventorySystem.Admin.Supplier.Supplier"/>
-        <method signature="Supplier.TC_IT_006()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" name="TC_IT_006" class="com.SalesAndInventorySystem.Admin.Supplier.Supplier"/>
-      </group> <!-- integration -->
       <group name="smoke">
-        <method signature="Employee.EmployeePageDetailsButton()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" name="EmployeePageDetailsButton" class="com.SalesAndInventorySystem.Admin.Employee.Employee"/>
-        <method signature="Employee.EmployeePageSearchPage()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" name="EmployeePageSearchPage" class="com.SalesAndInventorySystem.Admin.Employee.Employee"/>
-        <method signature="Employee.addEmployeeButton()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" name="addEmployeeButton" class="com.SalesAndInventorySystem.Admin.Employee.Employee"/>
-        <method signature="Product.TC_Smoke_030()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" name="TC_Smoke_030" class="com.SalesAndInventorySystem.Admin.Product.Product"/>
+        <method signature="Product.TC_Smoke_030()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" name="TC_Smoke_030" class="com.SalesAndInventorySystem.Admin.Product.Product"/>
       </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="Supplier.TC_IT_005()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" name="TC_IT_005" class="com.SalesAndInventorySystem.Admin.Supplier.Supplier"/>
+        <method signature="Supplier.TC_IT_006()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" name="TC_IT_006" class="com.SalesAndInventorySystem.Admin.Supplier.Supplier"/>
+        <method signature="Product.TC_IT_010()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" name="TC_IT_010" class="com.SalesAndInventorySystem.Admin.Product.Product"/>
+      </group> <!-- integration -->
     </groups>
-    <test started-at="2025-03-17T16:57:06 IST" name="Test" finished-at="2025-03-17T16:58:43 IST" duration-ms="96715">
-      <class name="com.SalesAndInventorySystem.Admin.Inventory.Inventory">
-        <test-method is-config="true" signature="configBs()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:57:06 IST" name="configBs" finished-at="2025-03-17T16:57:06 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBs -->
-        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:57:06 IST" name="configBc" finished-at="2025-03-17T16:57:07 IST" duration-ms="1167" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBc -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:57:07 IST" name="configBm" finished-at="2025-03-17T16:57:08 IST" duration-ms="1001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBm -->
-        <test-method signature="TC_ST_015()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:57:08 IST" name="TC_ST_015" finished-at="2025-03-17T16:57:13 IST" duration-ms="4310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_ST_015 -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:57:13 IST" name="configAm" finished-at="2025-03-17T16:57:17 IST" duration-ms="4362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:57:17 IST" name="configBm" finished-at="2025-03-17T16:57:18 IST" duration-ms="717" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBm -->
-        <test-method signature="TC_ST_017()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:57:18 IST" name="TC_ST_017" finished-at="2025-03-17T16:57:29 IST" duration-ms="11220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_ST_017 -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:57:29 IST" name="configAm" finished-at="2025-03-17T16:57:33 IST" duration-ms="4339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:57:33 IST" name="configAC" finished-at="2025-03-17T16:57:33 IST" duration-ms="157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@139982de]" started-at="2025-03-17T16:58:43 IST" name="configAS" finished-at="2025-03-17T16:58:43 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAS -->
-      </class> <!-- com.SalesAndInventorySystem.Admin.Inventory.Inventory -->
+    <test started-at="2025-03-17T17:29:06 IST" name="Test-2" finished-at="2025-03-17T17:29:22 IST" duration-ms="15331">
       <class name="com.SalesAndInventorySystem.Admin.Supplier.Supplier">
-        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" started-at="2025-03-17T16:57:53 IST" name="configBc" finished-at="2025-03-17T16:57:53 IST" duration-ms="804" status="PASS">
+        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" started-at="2025-03-17T17:29:06 IST" name="configBc" finished-at="2025-03-17T17:29:08 IST" duration-ms="1344" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,37 +31,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBc -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" started-at="2025-03-17T16:57:53 IST" name="configBm" finished-at="2025-03-17T16:57:54 IST" duration-ms="920" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" started-at="2025-03-17T17:29:08 IST" name="configBm" finished-at="2025-03-17T17:29:09 IST" duration-ms="991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="TC_IT_005()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" started-at="2025-03-17T16:57:54 IST" name="TC_IT_005" finished-at="2025-03-17T16:57:56 IST" duration-ms="1323" status="PASS">
+        <test-method signature="TC_IT_005()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" started-at="2025-03-17T17:29:09 IST" name="TC_IT_005" finished-at="2025-03-17T17:29:11 IST" duration-ms="1979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_IT_005 -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" started-at="2025-03-17T16:57:56 IST" name="configAm" finished-at="2025-03-17T16:58:00 IST" duration-ms="4392" status="PASS">
+        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" started-at="2025-03-17T17:29:11 IST" name="configAm" finished-at="2025-03-17T17:29:15 IST" duration-ms="4394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" started-at="2025-03-17T16:58:00 IST" name="configBm" finished-at="2025-03-17T16:58:01 IST" duration-ms="699" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" started-at="2025-03-17T17:29:15 IST" name="configBm" finished-at="2025-03-17T17:29:16 IST" duration-ms="691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="TC_IT_006()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" started-at="2025-03-17T16:58:01 IST" name="TC_IT_006" finished-at="2025-03-17T16:58:02 IST" duration-ms="1338" status="PASS">
+        <test-method signature="TC_IT_006()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" started-at="2025-03-17T17:29:16 IST" name="TC_IT_006" finished-at="2025-03-17T17:29:17 IST" duration-ms="1348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_IT_006 -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" started-at="2025-03-17T16:58:02 IST" name="configAm" finished-at="2025-03-17T16:58:06 IST" duration-ms="4354" status="PASS">
+        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" started-at="2025-03-17T17:29:17 IST" name="configAm" finished-at="2025-03-17T17:29:21 IST" duration-ms="4403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@77c2494c]" started-at="2025-03-17T16:58:06 IST" name="configAC" finished-at="2025-03-17T16:58:07 IST" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.SalesAndInventorySystem.Admin.Supplier.Supplier@587e5365]" started-at="2025-03-17T17:29:21 IST" name="configAC" finished-at="2025-03-17T17:29:22 IST" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
       </class> <!-- com.SalesAndInventorySystem.Admin.Supplier.Supplier -->
-      <class name="com.SalesAndInventorySystem.Admin.Employee.Employee">
-        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:33 IST" name="configBc" finished-at="2025-03-17T16:57:34 IST" duration-ms="860" status="PASS">
+    </test> <!-- Test-2 -->
+    <test started-at="2025-03-17T17:29:06 IST" name="Test-1" finished-at="2025-03-17T17:29:35 IST" duration-ms="28967">
+      <class name="com.SalesAndInventorySystem.Admin.Inventory.Inventory">
+        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" started-at="2025-03-17T17:29:06 IST" name="configBc" finished-at="2025-03-17T17:29:08 IST" duration-ms="1344" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,49 +74,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBc -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:34 IST" name="configBm" finished-at="2025-03-17T16:57:35 IST" duration-ms="926" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" started-at="2025-03-17T17:29:08 IST" name="configBm" finished-at="2025-03-17T17:29:09 IST" duration-ms="991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="EmployeePageDetailsButton()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:35 IST" name="EmployeePageDetailsButton" finished-at="2025-03-17T16:57:36 IST" duration-ms="440" status="PASS">
+        <test-method signature="TC_ST_015()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" started-at="2025-03-17T17:29:09 IST" name="TC_ST_015" finished-at="2025-03-17T17:29:13 IST" duration-ms="4809" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EmployeePageDetailsButton -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:36 IST" name="configAm" finished-at="2025-03-17T16:57:40 IST" duration-ms="4364" status="PASS">
+        </test-method> <!-- TC_ST_015 -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" started-at="2025-03-17T17:29:13 IST" name="configAm" finished-at="2025-03-17T17:29:18 IST" duration-ms="4382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:40 IST" name="configBm" finished-at="2025-03-17T16:57:41 IST" duration-ms="667" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" started-at="2025-03-17T17:29:18 IST" name="configBm" finished-at="2025-03-17T17:29:19 IST" duration-ms="729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="EmployeePageSearchPage()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:41 IST" name="EmployeePageSearchPage" finished-at="2025-03-17T16:57:42 IST" duration-ms="1346" status="PASS">
+        <test-method signature="TC_ST_017()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" started-at="2025-03-17T17:29:19 IST" name="TC_ST_017" finished-at="2025-03-17T17:29:31 IST" duration-ms="12193" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EmployeePageSearchPage -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:42 IST" name="configAm" finished-at="2025-03-17T16:57:46 IST" duration-ms="4361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:46 IST" name="configBm" finished-at="2025-03-17T16:57:47 IST" duration-ms="700" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBm -->
-        <test-method signature="addEmployeeButton()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:47 IST" name="addEmployeeButton" finished-at="2025-03-17T16:57:48 IST" duration-ms="896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addEmployeeButton -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:48 IST" name="configAm" finished-at="2025-03-17T16:57:52 IST" duration-ms="4362" status="PASS">
+        </test-method> <!-- TC_ST_017 -->
+        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" started-at="2025-03-17T17:29:31 IST" name="configAm" finished-at="2025-03-17T17:29:35 IST" duration-ms="4334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.SalesAndInventorySystem.Admin.Employee.Employee@477b4cdf]" started-at="2025-03-17T16:57:52 IST" name="configAC" finished-at="2025-03-17T16:57:53 IST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.SalesAndInventorySystem.Admin.Inventory.Inventory@44c03695]" started-at="2025-03-17T17:29:35 IST" name="configAC" finished-at="2025-03-17T17:29:35 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-      </class> <!-- com.SalesAndInventorySystem.Admin.Employee.Employee -->
+      </class> <!-- com.SalesAndInventorySystem.Admin.Inventory.Inventory -->
+    </test> <!-- Test-1 -->
+    <test started-at="2025-03-17T17:29:22 IST" name="Test-3" finished-at="2025-03-17T17:29:59 IST" duration-ms="37826">
       <class name="com.SalesAndInventorySystem.Admin.Product.Product">
-        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:07 IST" name="configBc" finished-at="2025-03-17T16:58:07 IST" duration-ms="859" status="PASS">
+        <test-method is-config="true" signature="configBs()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:06 IST" name="configBs" finished-at="2025-03-17T17:29:06 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBs -->
+        <test-method is-config="true" signature="configBc(java.lang.String)[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:22 IST" name="configBc" finished-at="2025-03-17T17:29:22 IST" duration-ms="856" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,47 +121,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBc -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:07 IST" name="configBm" finished-at="2025-03-17T16:58:08 IST" duration-ms="932" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:22 IST" name="configBm" finished-at="2025-03-17T17:29:23 IST" duration-ms="940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="TC_IT_010()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:08 IST" name="TC_IT_010" finished-at="2025-03-17T16:58:16 IST" duration-ms="7762" status="PASS">
+        <test-method signature="TC_IT_010()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:23 IST" name="TC_IT_010" finished-at="2025-03-17T17:29:32 IST" duration-ms="9030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_IT_010 -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:16 IST" name="configAm" finished-at="2025-03-17T16:58:20 IST" duration-ms="4349" status="PASS">
+        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:32 IST" name="configAm" finished-at="2025-03-17T17:29:37 IST" duration-ms="4376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:20 IST" name="configBm" finished-at="2025-03-17T16:58:21 IST" duration-ms="694" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:37 IST" name="configBm" finished-at="2025-03-17T17:29:37 IST" duration-ms="695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="TC_ST_009()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:21 IST" name="TC_ST_009" finished-at="2025-03-17T16:58:27 IST" duration-ms="5983" status="PASS">
+        <test-method signature="TC_ST_009()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:37 IST" name="TC_ST_009" finished-at="2025-03-17T17:29:44 IST" duration-ms="6068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_ST_009 -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:27 IST" name="configAm" finished-at="2025-03-17T16:58:31 IST" duration-ms="4351" status="PASS">
+        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:44 IST" name="configAm" finished-at="2025-03-17T17:29:48 IST" duration-ms="4340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:31 IST" name="configBm" finished-at="2025-03-17T16:58:32 IST" duration-ms="651" status="PASS">
+        <test-method is-config="true" signature="configBm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:48 IST" name="configBm" finished-at="2025-03-17T17:29:49 IST" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method signature="TC_Smoke_030()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:32 IST" name="TC_Smoke_030" finished-at="2025-03-17T16:58:38 IST" duration-ms="6291" status="PASS">
+        <test-method signature="TC_Smoke_030()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:49 IST" name="TC_Smoke_030" finished-at="2025-03-17T17:29:55 IST" duration-ms="6350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Smoke_030 -->
-        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:38 IST" name="configAm" finished-at="2025-03-17T16:58:43 IST" duration-ms="4324" status="PASS">
+        <test-method is-config="true" signature="configAm()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:55 IST" name="configAm" finished-at="2025-03-17T17:29:59 IST" duration-ms="4351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@f5958c9]" started-at="2025-03-17T16:58:43 IST" name="configAC" finished-at="2025-03-17T16:58:43 IST" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:59 IST" name="configAC" finished-at="2025-03-17T17:29:59 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.SalesAndInventorySystem.Admin.Product.Product@6913c1fb]" started-at="2025-03-17T17:29:59 IST" name="configAS" finished-at="2025-03-17T17:29:59 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
       </class> <!-- com.SalesAndInventorySystem.Admin.Product.Product -->
-    </test> <!-- Test -->
+    </test> <!-- Test-3 -->
   </suite> <!-- Suite -->
 </testng-results>

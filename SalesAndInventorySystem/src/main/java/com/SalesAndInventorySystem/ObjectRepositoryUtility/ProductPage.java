@@ -111,6 +111,7 @@ public class ProductPage {
 		apd.getCategory().sendKeys(category);
 		wLib.waitForElementPresent(driver, apd.getSupplier());
 		apd.getSupplier().sendKeys(supplier);
+		wLib.waitForElementPresent(driver, apd.getDatestock());
 		Thread.sleep(500);
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.TAB).perform();
@@ -164,6 +165,7 @@ public class ProductPage {
 		apd.getCategory().sendKeys(category);
 		wLib.waitForElementPresent(driver, apd.getSupplier());
 		apd.getSupplier().sendKeys(supplier);
+		wLib.waitForElementPresent(driver, apd.getDatestock());
 		Thread.sleep(500);
 		Actions act = new Actions(driver);
 		act.sendKeys(Keys.TAB).perform();
