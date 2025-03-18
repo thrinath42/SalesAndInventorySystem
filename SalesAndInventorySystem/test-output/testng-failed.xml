@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="tests" name="Testrunner-Edge(failed)">
-    <parameter name="Browser" value="edge"/>
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test-1(failed)">
     <classes>
-      <class name="com.SalesAndInventorySystem.Admin.Product.Product">
-        <methods>
-          <include name="configBm"/>
-          <include name="TC_ST_009"/>
-          <include name="configAm"/>
-          <include name="TC_IT_010"/>
-          <include name="TC_Smoke_030"/>
-          <include name="configAC"/>
-          <include name="configAS"/>
-          <include name="configBc"/>
-          <include name="configBs"/>
-        </methods>
-      </class> <!-- com.SalesAndInventorySystem.Admin.Product.Product -->
       <class name="com.SalesAndInventorySystem.Admin.Inventory.Inventory">
         <methods>
           <include name="configBm"/>
           <include name="configAm"/>
           <include name="configAC"/>
           <include name="configAS"/>
-          <include name="TC_ST_017"/>
+          <include name="TC_ST_015"/>
           <include name="configBc"/>
           <include name="configBs"/>
         </methods>
       </class> <!-- com.SalesAndInventorySystem.Admin.Inventory.Inventory -->
     </classes>
-  </test> <!-- Testrunner-Edge(failed) -->
+  </test> <!-- Test-1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

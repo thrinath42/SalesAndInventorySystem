@@ -23,9 +23,10 @@ public class Inventory extends BaseClass{
 		HomePage hp=new HomePage(driver);
 		InventoryPage ip=new InventoryPage(driver);
 		EditInventoryPage eip=new EditInventoryPage(driver);
+		ProductPage pp=new ProductPage(driver);
 		
-		
-		String prodName=  elib.getDataFromExcel("product", 2, 1);
+		String prodName=pp.createProduct();
+
 		hp.getInventoryLink().click();
 		ip.getSearchBar().sendKeys(prodName);
 		ip.getViewBtn().click();
